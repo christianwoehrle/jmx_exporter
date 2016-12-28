@@ -100,3 +100,8 @@ If a given part isn't set, it'll be excluded.
 A Debian binary package is created as part of the build process and it can
 be used to install an executable into `/usr/bin/jmx_exporter` with configuration
 in `/etc/jmx_exporter/jmx_exporter.yaml`.
+
+## build
+
+docker run -it --volume=`pwd`:/usr/src/app -w /usr/src/app maven mvn clean install
+

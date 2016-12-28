@@ -1,6 +1,6 @@
 ---
 hostPort: localhost:5555
-username: 
+username:  
 password: 
 
 rules:
